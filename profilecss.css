@@ -1,0 +1,143 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background: #129fe4ee;
+    color: white;
+    user-select:none ;
+}
+h3{
+    margin: 12px;
+  }
+  img{
+    width: 70px;
+    border-radius: 3px;
+    height: fit-content;
+  }
+.sidebar{
+    left: 0;
+    width:170px;
+    height: 110%;
+    background:#129fe4ee;
+}
+
+.options{
+  background: transparent; 
+color: black;
+border:none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    color: white;
+    padding-left:20px ;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255,.1);
+    border-bottom: 1px solid black;
+    transition: .2s;
+}
+ ul li:hover a{
+    padding-left:  10px ;
+ }
+ .sidebar ul a i{
+    margin-right: 16px;
+ }
+ section{
+    align-items: center;
+ }
+ p{
+  margin: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ input[type=submit]{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+ }
+ table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  #add {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-left: 0px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .input{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid white;
+    columns: white;
+    width: 60%;
+}
+.number{
+  width: 15px;
+}
+.in{
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  columns: white;
+  width: 60%;
+}
+  table input {
+    background: none;
+    border: none;
+    width: 160px;
+  }
+  table button{
+    background: rgb(82, 165, 237);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+  }
+  button{
+    background: rgb(82, 165, 237);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+  }
+  .sup{
+    background: rgb(250, 45, 45);
+  }
+  .cont{
+    display: flex;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  .front img{
+    width: 80%;
+    margin-right: 9vw;
+    margin-left: 14vw;
+    height: 500px;
+  }
+  #e{
+    height: 20px;
+  }
